@@ -22,7 +22,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		NeuralNetwork nn = new NeuralNetwork(2, 10, 1);
-		nn.fit(X, Y, 500);
+		nn.fit(X, Y, 500000);
 		
 		double [][] input = {{0,0},{0,1},{1,0},{1,1}};
 		List<Double> output;

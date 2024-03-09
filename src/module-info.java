@@ -4,5 +4,5 @@
 /**
  * 
  */
-module NN_from_scratch {
+module Neural_network_from_scratch_XOR {
 }
